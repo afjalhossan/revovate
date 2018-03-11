@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800');
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Header top css */
+.contact-details li {
+    font-size: 13px;
+    padding: 10px 15px;
+    border-right: 1px solid #E2E6E7;
+}
+
+.contact-details li a {
+    color: #999;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: 'Raleway';
+}
+
+.contact-details li i {
+    color: #999;
+    padding-right: 10px;
+}
+
+.contact-details li:first-child {
+    border-left: 1px solid #E2E6E7;
+}
+
+.header-top-area {
+    background: #F5F5F5;
+}
+
+.social-icon li a i {
+    color: #999;
+    transition:  .2s;
+}
+
+.social-icon li {
+    padding: 10px 15px;
+    border-right: 1px solid #E2E6E7;
+}
+
+.social-icon li:first-child {
+    border-left: 1px solid #E2E6E7;
+}
+
+.social-icon li:hover a {
+    color: #333;
+}
+
+.social-icon >li:hover a i {
+    color: #000;
+}
+
+form.search-form {
+    display:  flex;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background: #F5F5F5;
+    padding: 15px;
+    z-index: 9999;
+}
+
+.social-icon li.icon-search {
+    position: relative;
+}
+.search-bar{
+    display: none;
+}
+.search-form input[type="text"] {
+    padding: 10px 0 10px 15px;
+    width: 105px;
+    border-color: transparent;
+}
+.search-form input:focus {
+    border-color: transparent;
+    outline:  0;
+}
+
+.search-btn {
+    border: 1px solid #e2e5e6;
+    background: transparent;
+    padding: 10px 15px;
+    margin-left: 12px;
+    color: #999;
+    cursor:  pointer;
+    font-size: 13px;
+}
+.search-btn:hover{
+    color: #333;
+}
+
+
+
+/* Header Bootom */
+
+.navbar-brand h1 {
+    color: #F5BA0B;
+    font-weight: 900;
+    font-size: 37px;
+    text-transform: uppercase;
+}
+
+.main-menu li a {
+    font-size: 14px;
+    color: #444;
+    padding:  12px 0 12px 26px;
+    text-transform:  uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    transition: .2s;
+}
+
+.main-menu li:hover >a {
+    color: #F5BA0B;
+}
+
+.main-menu li {
+    position:  relative;
+}
+
+.submenu {
+    position:  absolute;
+    width:  200px;
+    top: 130%;
+    left:  0;
+    border: 1px solid #E2E6E7;
+    opacity:  0;
+    display:  none;
+    z-index:  999;
+    background: #fff;
+}
+
+.submenu li a {
+    text-transform:  capitalize;
+}
+
+.submenu li {
+    padding:  10px 0;
+    border-bottom: 1px solid #E2E6E7;
+}
+
+.submenu  li:last-child {
+    border-color: transparent;
+}
+
+.main-menu li:hover .submenu {
+    display:  block;
+    opacity:  1;
+}
+
+/*============ 
+Slider Area Css
+==============*/
+.slider-bg-1{background: url(../img/slider/image_01.jpg);}
+.slider-bg-2{background: url(../img/slider/image_02.jpg);}
+.slider-bg-3{background: url(../img/slider/image_03.jpg);}
+
+
+
+
+.single-slider {
+    background-position: center;
+    background-color: #ddd;
+    background-size: cover;
+    padding: 150px 0;
+    max-height: 600px;
+}
+
+.slider-content {
+    background: rgba(0,0,0, .6);
+    color: #fff;
+}
+
+.slider-title h2 {
+    text-transform:  uppercase;
+    font-weight: 700;
+    line-height: 1.7;
+}
+
+.slider-title {
+    padding:  20px;
+    border-bottom: 1px solid #F4BC16;
+    background: rgba(0,0,0, .6);
+}
+
+.slider-text {
+    padding: 15px;
+}
+
+.round-btn {
+    color: #fff;
+    border: 2px solid transparent;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 20px;
+    margin: 20px 0;
+    display:  inline-block;
+    transition: .2s;
+    background: #F4BC16;
+}
+.round-btn.slider-btn{
+    background:transparent;
+    border: 1px solid #fff;
+    
+}
+.round-btn.slider-btn:hover{
+    background:#F4BC16;
+    border-color: transparent;
+    color: #fff;
+}
+
+.round-btn:hover {
+    background: #fff;
+    color: #000;
+    border-color: #F4BC16;
+}
+
+.home-solider .owl-nav div {
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    font-size: 35px;
+    height: 60px;
+    width: 30px;
+    background: rgba(0,0,0, .8);
+    text-align:  center;
+    line-height: 60px;
+    transform: translateY(-50%);
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+
+.home-solider .owl-nav div.owl-next {
+    left:  auto;
+    right:  0;
+}
+
+.home-solider:hover  .owl-nav div {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* Cost Reservation Css */
+
+.cost-renovation h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+
+.cost-renovation {
+    position: relative;
+    padding-left: 110px;
+}
+
+.cost-renovation:before {
+    content: "\f1ec";
+    font-family: fontAwesome;
+    font-size: 50px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid #E2E6E7;
+    padding: 25px;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    line-height: 35px;
+}
+
+
+
+/* Service section css */
+
+.service {
+    background: #F5F5F5;
+    padding:80px;
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-size: 28px;
+    display: inline-block;
+    padding-bottom: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.section-title:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 2px;
+    content: "";
+    background: #F4BC16;
+}
+
+
+/* Service css area */
+
+.single-service-item {
+    width: 33.33%;
+    text-align:  center;
+    min-height: 400px;
+    background: #fff;
+}
+
+.service-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.service-title:after {
+    content: "";
+    background: #F4BC16;
+    width: 40px;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.servic-img {
+    margin-top: 20px;
+}
+.service-btn {
+    margin: 60px auto 0;
+}
