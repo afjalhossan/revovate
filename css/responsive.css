@@ -1,0 +1,100 @@
+@media only screen and (max-width:768px){
+
+   
+    .contact-details li:first-child {
+        border: none;
+    }
+    
+    .contact-details li {
+        border:  none;
+    }
+    
+    .social-icon li {
+        border: none;
+    }
+    
+    .social-icon li:first-child {
+        border: none;
+    }
+    
+    ul.main-menu {
+        display: none !important;
+    }
+    
+    .single-service-item {
+        width: 50%;
+    }
+    
+    .we_offer li a {
+        width: 140px;
+        height: 128px;
+    }
+    
+    .single-call-action {
+        margin-bottom: 25px;
+    }
+    
+    .footer-colum {
+        margin-bottom: 25px;
+    }
+
+    .slicknav_menu{
+        display: block;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .single-service-item {
+        width: 100%;
+    }
+    
+    .home-solider {
+        display:  none !important;
+    }
+    
+    h1.section-title {
+        font-size: 16px;
+    }
+    
+    .nav-tabs.we-offer {
+        display: flex !important;
+    }
+    
+    .we_offer li a {
+        height: auto;
+        background: #fff;
+        color: #444;
+        padding: 4px 0px;
+        text-align: center;
+        display:  inline-block;
+        line-height: 15px;
+        border:  none;
+    }
+    
+    .we_offer li a i {
+        display:  none;
+    }
+    
+    .we_offer li {
+        margin-right: 25px;
+        padding-bottom: 10px;
+    }
+    
+    
+    .we_offer li a.active {
+        background: #F4BC16;
+    }
+    
+    .testimonial-items .owl-nav div {
+        top:  10%;
+        left:  0;
+    }
+    
+    .testimonial-items .owl-nav div.owl-next {
+        right: 0;
+    }
+    
+    .contact-details {
+        flex-direction: column;
+    }
+}
