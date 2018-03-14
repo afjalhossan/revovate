@@ -303,9 +303,14 @@ p.card-text {
 
 .member-info {
     position: absolute;
-    bottom: 10px;
+    bottom: -40px;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: .2s;
+
 }
 
 .member-info a {
@@ -319,4 +324,35 @@ p.card-text {
 .member-info a:hover {
     color: #fff;
     background: #F4BC16;
+}
+
+.member-pic:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    content: '';
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.member-pic:hover:after {
+    opacity: .2;
+    visibility: visible;
+}
+
+.member-pic:hover .member-info {
+    visibility: visible;
+    opacity: 1;
+    bottom: 10px;
+}
+.team-members >div {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.team-members .member-prfl p {
+    padding: 15px;
 }

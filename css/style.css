@@ -884,3 +884,93 @@ p {}
 .coyrig-text span {
     color: #999;
 }
+
+
+/*=================
+        Team Css
+    ===============
+*/
+.team-page .team {
+    background: #fff;
+}
+
+.single-page-header .page-title {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.single-page-header {
+    background: #F5F5F5;
+    color: #999;
+}
+
+.single-page-header .page-title h4 {
+    text-transform: uppercase;
+}
+
+.single-page-header span {
+    color: #444;
+}
+
+
+/*=================
+        Skills  Css
+    ===============
+*/
+
+.team-page .skills {
+    background: #F5F5F5;
+}
+
+.team-page .skills .service-title:after {
+    left: 0;
+    transform: translateX(0);
+}
+/*=================
+        Contact  Css
+    ===============
+*/
+
+.contact-v1 .action-call {
+    background: #fff;
+    color: #444;
+}
+
+form.contact-form {
+    display:  flex;
+    padding: 40px 0;
+}
+
+.form-info {
+    flex-basis: 48%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+    color: #999;
+}
+
+.form-message {
+    display: flex;
+    flex-basis: 48%;
+    flex-direction: column;
+    height: 220px;
+}
+
+.form-info input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #999;
+}
+
+.form-info input:focus {
+    outline: transparent;
+}
+
+.form-message .round-btn {
+    margin:  20px auto 0;
+}
+
+.contact-v2 .single-call-action {
+    margin-bottom: 47px;
+}

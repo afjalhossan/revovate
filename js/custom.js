@@ -61,6 +61,30 @@
         margin:25
     });
 
+    $('.map')
+      .gmap3({
+        center:[23.7647529,90.4264263],
+        zoom:4
+      })
+      .marker([
+        {position:[23.7647529,90.4264263]},
+        {address:"86000 Poitiers, France"}
+      ])
+      .on('click', function (marker) {
+        marker.setIcon('http://maps.google.com/mapfiles/marker_green.png');
+      });
+
+
+
+
+
+
+
+
+
+
+
+
 
       });
 
